@@ -16,17 +16,17 @@ Example :
 
 layer_dims = [784,64,10]
 
-#list of number of neurons for the model layer by layer 
-#1st element is equal to shape of the Input
+# list of number of neurons for the model layer by layer 
+# 1st element is equal to shape of the Input
 
 activations = ["relu","softmax"]
-#list of activation functions for the model layer by layer 
+# list of activation functions for the model layer by layer 
 
 opt = numras_adam()
-#Initializing Adam optimizer from Numras
+# Initializing Adam optimizer from Numras
 
 numras_model = Numras(layer_dims=layer_dims,activation_functions=activations,parameter_type="he",optimizer=opt)
-#Initializing parameters of Weight and biases as he initialization 
+# Initializing parameters of Weight and biases as he initialization 
 
 numras_history = numras_model.fit(X,Y,test_x,test_y,0.01,10,batch_size = 1024)
-#Fitting the model with the training data
+# Fitting the model with the training data
