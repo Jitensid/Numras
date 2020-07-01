@@ -1,6 +1,6 @@
 # Numras
 
-Numras is a basic Python Deep Learning API implemented in Numpy where one can develop simple neural nets just by passing Python lists containing information regarding activation functions and number of neurons in the layers of the model.
+Numras is a basic Python Deep Learning API implemented in Numpy where one can develop simple neural nets just by passing Python lists containing information regarding activation functions and number of neurons in the layers of the model.It's results are comparable when same data is fed to a Keras model with the same Neural Network Architecture.
 
 # Motivation for this project :
 
