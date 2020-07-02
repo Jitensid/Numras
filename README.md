@@ -6,6 +6,8 @@ Numras is a basic Python Deep Learning API implemented in Numpy where one can de
 
 I read an article on Medium which stated that we should not treat ML and DL as "blackbox" and to get the best possible resulls one should understand what is going on inside the model and this motivated me to do this project.
 
+# Details of Project :
+
 One can even speed up gradient descent process by using advanced optimizers such as Adam, Adamax and RMSprop. If no optimizer is passed to the model then stochastic gradient descent is carried out by default. 
 
 Currently this API supports 3 types of weight initializations - "defualt","he" and "xavier" initializations respectively with default weight initialization as "default". 
