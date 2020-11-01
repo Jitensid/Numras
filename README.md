@@ -10,7 +10,7 @@ I read an article on Medium which stated that we should not treat ML and DL as "
 
 One can even speed up gradient descent process by using advanced optimizers such as Adam, Adamax and RMSprop. If no optimizer is passed to the model then stochastic gradient descent is carried out by default. 
 
-Currently this API supports 3 types of weight initializations - "defualt","he" and "xavier" initializations respectively with default weight initialization as "default". 
+Currently this API supports 3 types of weight initializations - "default","he" and "xavier" initializations respectively with default weight initialization as "default". 
 
 Also one can use mini-batch gradient descent to converge loss function quickly by passing the "batch_size" parameter in the fit function of the model.
 
